@@ -1,0 +1,4 @@
+build/*
+*.dll
+*.pyd
+BStimulator.h
