@@ -1,3 +1,13 @@
+# This CMakeLists is no longer used.
+# I am keeping it around as a resource on how to use cmake with SWIG
+# mkdir build && cd build
+# cmake .. -G "Visual Studio 14 2015 Win64" -DPYTHON_LIBRARY="C:\Program Files\Python36\libs\python36.lib"
+# Open the pycerestim.sln
+# Change configuration from Debug to Release
+# Build the _cerestim target.
+# Open python and `import _cerestim`
+
+
 cmake_minimum_required(VERSION 3.8)
 project(pycerestim VERSION 0.0.1)
 
