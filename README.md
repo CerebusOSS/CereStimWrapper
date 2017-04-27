@@ -14,7 +14,7 @@ cmake can be used to generate a MSVC solution or a makefile for the Python wrapp
 
 1. Make sure swig.exe is on your PATH.
     * via system environment variables
-    * via command prompt: `set PATH=%PATH%;E:\Tools\Misc\swigwin-3.0.12`
+    * via command prompt: `set PATH=%PATH%;D:\Tools\Misc\swigwin-3.0.12`
 1. May need to set PYTHON_INCLUDE and PYTHON_LIB 
 1. Open this directory in command prompt.
 1. `swig -c++ -python -py3 -I"CereStim API/" cerestim/cerestim.i`

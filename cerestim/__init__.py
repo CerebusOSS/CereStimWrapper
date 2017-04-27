@@ -1,1 +1,1 @@
-from ._cerestim import *
+from .cerestim import *
