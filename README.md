@@ -18,7 +18,7 @@ cmake can be used to generate a MSVC solution or a makefile for the Python wrapp
 1. May need to set PYTHON_INCLUDE and PYTHON_LIB 
 1. Open this directory in command prompt.
 1. `swig -c++ -python -py3 -I"CereStim API/" cerestim/cerestim.i`
-1. `pip install .`
+1. `pip3 install .`
 
 ## Usage
 

@@ -11,11 +11,11 @@ full_lib_relative = api_dir + '/' + lib_name + '.dll'
 package_name = 'cerestim'
 
 cerestim_module = Extension('cerestim._cerestim',
-                            sources = ['cerestim/cerestim_wrap.cxx'],
-                            include_dirs = [api_dir],
-                            libraries = [lib_name],
-                            library_dirs = [api_dir],
-                            language = 'c++'
+                            sources=['cerestim/cerestim_wrap.cxx'],
+                            include_dirs=[api_dir],
+                            libraries=[lib_name],
+                            library_dirs=[api_dir],
+                            language='c++'
                            )
 
 setup(
