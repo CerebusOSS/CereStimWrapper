@@ -7,3 +7,4 @@ cerestim.py
 cerestim_wrap.cxx
 CereStim API
 *.egg-info/
+dist/
