@@ -6,7 +6,7 @@ cmake can be used to generate a MSVC solution or a makefile for the Python wrapp
 ## Prerequisites
 
 * [SWIG](http://www.swig.org/download.html). In Windows, get swigwin.
-* [CereStim API](http://blackrockmicro.com/technical-support/software-downloads/). Copy the API folder into this directory (i.e. `CereStimWrapper\API`)
+* [CereStim API](https://blackrockneurotech.com/research/wp-content/software/CereStim-API.zip). Copy the API folder into this directory (i.e. `CereStimWrapper\API`)
 * Python
 * A compiler (I think it should [match your Python version's compiler](https://wiki.python.org/moin/WindowsCompilers#Which_Microsoft_Visual_C.2B-.2B-_compiler_to_use_with_a_specific_Python_version_.3F))
 
