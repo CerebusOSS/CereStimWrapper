@@ -9,3 +9,4 @@ CereStim API
 CereStim-API/
 *.egg-info/
 dist/
+**/__pycache__/
