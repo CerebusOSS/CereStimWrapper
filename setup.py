@@ -4,7 +4,7 @@ import distutils
 from setuptools import setup, Extension, find_packages
 import platform
 
-api_dir = 'API'
+api_dir = 'CereStim-API/Binaries'
 arch = 'x64' if '64bit' in platform.architecture() else 'x86'
 lib_name = 'BStimAPI' + arch
 full_lib_relative = api_dir + '/' + lib_name + '.dll'

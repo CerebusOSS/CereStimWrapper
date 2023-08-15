@@ -6,5 +6,6 @@ BStimulator.h
 cerestim.py
 cerestim_wrap.cxx
 CereStim API
+CereStim-API/
 *.egg-info/
 dist/
