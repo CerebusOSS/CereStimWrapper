@@ -20,7 +20,7 @@ cerestim_module = Extension('cerestim._cerestim',
 
 setup(
     name            = package_name,
-    version         = '0.1',
+    version         = '0.3.0',
     author          = 'Chadwick Boulay',
     author_email    = 'chadwick.boulay@gmail.com',
     description     = 'Wrapper for Blackrock Microsystems CereStim API',
